@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>REGISTER WITH US</title>
+    <style>
+        body{
+    background-color: navajowhite;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+
+  }
+  nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li{
+    margin: 0 45px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: goldenrod;
+    padding: 10px 15px ;
+    border-radius: 35px;
+  }
+  nav ul li a:hover{
+    background-color: #d64343;
+  }
+    </style>
+</head>
+<body>
+ <nav>
+ <ul>
+   <li><a href="index.html">Home</a></li>
+   <li><a href="aboutus.html">About Us</a></li>
+   <li><a href="contactus.html">Contact Us</a></li>
+   <li><a href="gallery.html">Gallery</a></li>
+   <li><a href="#">Register</a></li>
+
+ </ul>
+</nav>
+<h1>REGISTRATION FORM</h1>
+ <form action="">
+      <label for="fullname">FULL NAME:</label>
+    <input type="text" id="fullname" name="firstname" value=""><br><br>
+    <label for="emailaddress">EMAIL ADDRESS:</label>
+    <input type="text" id="emailaddress" name="emailaddress" value=""><br><br>
+    <label for="phonenumber">PHONE NUMBER: </label>
+    <input type="text" id="phonenumber" name="phonenumber" value=""><br><br>
+    <hr>
+     <label for="paymentmethod">PAYMENT METHOD: </label><br>
+    <input type="radio" id="creditcard" name="paymentmethod" value="creditcard">
+    <label for="creditcard">CREDIT CARD</label><br>
+    <input type="radio" id="paypal" name="paymentmethod" value="paypal">
+    <label for="paypal">PayPal</label><br>
+    <input type="radio" id="banktransfer" name="paymentmethod" value="Bank Transfer">
+    <label for="banktransfer">BANK TRANSFER</label><br><br>
+    <hr>
+ </form>
+</body>
+</html>
